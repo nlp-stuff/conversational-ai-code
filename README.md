@@ -20,17 +20,20 @@ Each directory contains code for specific session, navigate to readme file of re
 
 - Open **terminal** in Jupyter Notebook
 
+- Navigate to nlp folder
+`cd library/nlp`
+
+- Pull latest code:
+```bash
+git reset --hard HEAD
+git pull origin master
+```
+
 - Install required dependencies 
 `pip3 install -r requirements.txt --user`
 
 - Install nltk packages, type following in terminal
-```bash
-python
-import nltk
-nltk.download('punkt')
-nltk.download('wordnet')
-```
+`python3 nltk_download.py`
 
 - Execute chatbot script
-`cd library/nlp`
 `python3 chatbot.py`
