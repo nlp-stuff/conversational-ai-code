@@ -32,4 +32,5 @@ nltk.download('wordnet')
 ```
 
 - Execute chatbot script
+`cd library/nlp`
 `python3 chatbot.py`
